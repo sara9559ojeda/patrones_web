@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #d9d6ce;
+  --panel: #121212;
+  --panel-border: #2a2a2a;
+  --umbrella-red: #b1141a;
+  --umbrella-red-bright: #e2231a;
+  --biohazard-amber: #f0a500;
+  --hazard-critical: #ff2b2b;
+  --terminal-green: #3ddc84;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-panel: var(--panel);
+  --color-panel-border: var(--panel-border);
+  --color-umbrella-red: var(--umbrella-red);
+  --color-umbrella-red-bright: var(--umbrella-red-bright);
+  --color-biohazard-amber: var(--biohazard-amber);
+  --color-hazard-critical: var(--hazard-critical);
+  --color-terminal-green: var(--terminal-green);
+  --font-sans: var(--font-oswald);
+  --font-mono: var(--font-share-tech-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-share-tech-mono), monospace;
+  position: relative;
+}
+
+/* Ruido de escaner / CRT sutil sobre toda la interfaz */
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.025) 0px,
+    rgba(255, 255, 255, 0.025) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: overlay;
+}
+
+.hazard-stripes {
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--biohazard-amber) 0px,
+    var(--biohazard-amber) 10px,
+    #0a0a0a 10px,
+    #0a0a0a 20px
+  );
+}
+
+.text-glow-red {
+  text-shadow: 0 0 8px rgba(226, 35, 26, 0.65);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 8px rgba(240, 165, 0, 0.55);
+}
+
+.panel-border {
+  border: 1px solid var(--panel-border);
+}
+
+/* Fondo compartido para bandas "hero": grid técnico + viñeta radial.
+   Usado por HeroBand para que las páginas públicas compartan un mismo
+   lenguaje visual en vez de que cada una luzca distinta. */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(61, 220, 132, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(61, 220, 132, 0.07) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.bg-vignette {
+  background-image: radial-gradient(
+    ellipse at 30% 0%,
+    rgba(240, 165, 0, 0.08) 0%,
+    transparent 55%
+  );
+}
+
+@keyframes pulse-critical {
+  0%,
+  100% {
+    box-shadow: 0 0 0px rgba(255, 43, 43, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 18px rgba(255, 43, 43, 0.85);
+  }
+}
+
+.animate-pulse-critical {
+  animation: pulse-critical 1.6s ease-in-out infinite;
+}
+
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    opacity: 1;
+  }
+  20%,
+  22%,
+  24%,
+  55% {
+    opacity: 0.55;
+  }
+}
+
+.animate-flicker {
+  animation: flicker 5s infinite;
+}

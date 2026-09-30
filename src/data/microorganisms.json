@@ -1,0 +1,56 @@
+[
+  {
+    "id": "m-001",
+    "nombre": "Escherichia coli (cepa K-12)",
+    "nombreCientifico": "Escherichia coli",
+    "clasificacion": "Bacteria gramnegativa",
+    "grupoRiesgo": 1,
+    "descripcion": "Cepa de laboratorio no patógena, ampliamente usada como organismo modelo. Riesgo mínimo para el personal y el ambiente.",
+    "actualizado": "2026-08-10"
+  },
+  {
+    "id": "m-002",
+    "nombre": "Vibrio cholerae",
+    "nombreCientifico": "Vibrio cholerae",
+    "clasificacion": "Bacteria gramnegativa",
+    "grupoRiesgo": 2,
+    "descripcion": "Agente causal del cólera. Transmisión fecal-oral asociada a agua contaminada. Requiere manejo en Nivel de Bioseguridad 2 (BSL-2).",
+    "actualizado": "2026-09-02"
+  },
+  {
+    "id": "m-003",
+    "nombre": "Salmonella enterica",
+    "nombreCientifico": "Salmonella enterica serovar Typhimurium",
+    "clasificacion": "Bacteria gramnegativa",
+    "grupoRiesgo": 2,
+    "descripcion": "Causante frecuente de brotes de origen alimentario. Vigilancia activa en la red nacional de laboratorios centinela.",
+    "actualizado": "2026-09-14"
+  },
+  {
+    "id": "m-004",
+    "nombre": "Mycobacterium tuberculosis",
+    "nombreCientifico": "Mycobacterium tuberculosis",
+    "clasificacion": "Bacteria ácido-alcohol resistente",
+    "grupoRiesgo": 3,
+    "descripcion": "Agente causal de la tuberculosis. Manejo obligatorio en cabina de bioseguridad clase II bajo Nivel BSL-3. Notificación obligatoria de cepas multirresistentes.",
+    "actualizado": "2026-09-20"
+  },
+  {
+    "id": "m-005",
+    "nombre": "Influenza A (H5N1)",
+    "nombreCientifico": "Alphainfluenzavirus influenzae",
+    "clasificacion": "Virus ARN, familia Orthomyxoviridae",
+    "grupoRiesgo": 3,
+    "descripcion": "Subtipo de influenza aviar con potencial zoonótico. Bajo vigilancia epidemiológica reforzada por riesgo pandémico.",
+    "actualizado": "2026-09-25"
+  },
+  {
+    "id": "m-006",
+    "nombre": "Orthoebolavirus (especie Zaire)",
+    "nombreCientifico": "Orthoebolavirus zairense",
+    "clasificacion": "Virus ARN, familia Filoviridae",
+    "grupoRiesgo": 4,
+    "descripcion": "Agente hemorrágico de letalidad elevada. Manipulación exclusiva en laboratorio de Contención Máxima (BSL-4). Acceso restringido a personal certificado.",
+    "actualizado": "2026-09-27"
+  }
+]

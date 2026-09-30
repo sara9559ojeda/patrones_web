@@ -1,0 +1,42 @@
+[
+  {
+    "id": "s-001",
+    "codigo": "BSL2-2026-0091",
+    "microorganismoId": "m-003",
+    "investigadorId": "u-001",
+    "estado": "en_analisis",
+    "nivelBioseguridad": 2,
+    "fechaRecoleccion": "2026-09-16",
+    "ubicacion": "Laboratorio Regional Andino"
+  },
+  {
+    "id": "s-002",
+    "codigo": "BSL3-2026-0044",
+    "microorganismoId": "m-004",
+    "investigadorId": "u-001",
+    "estado": "en_cuarentena",
+    "nivelBioseguridad": 3,
+    "fechaRecoleccion": "2026-09-22",
+    "ubicacion": "Laboratorio Central - Ala BSL-3"
+  },
+  {
+    "id": "s-003",
+    "codigo": "BSL4-2026-0007",
+    "microorganismoId": "m-006",
+    "investigadorId": "u-002",
+    "estado": "contenida",
+    "nivelBioseguridad": 4,
+    "fechaRecoleccion": "2026-09-27",
+    "ubicacion": "Laboratorio Central - Contención Máxima"
+  },
+  {
+    "id": "s-004",
+    "codigo": "BSL1-2026-0512",
+    "microorganismoId": "m-001",
+    "investigadorId": "u-001",
+    "estado": "liberada",
+    "nivelBioseguridad": 1,
+    "fechaRecoleccion": "2026-08-05",
+    "ubicacion": "Laboratorio Docente"
+  }
+]

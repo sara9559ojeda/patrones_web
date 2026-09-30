@@ -1,0 +1,23 @@
+[
+  {
+    "id": "u-001",
+    "nombre": "Dra. Elena Vargas",
+    "email": "investigador@cnbvm.gov.co",
+    "passwordHash": "$2b$10$2.C7ogmHGrqkYIWA4uXnp.XITADoEb4i0cIe5/kjbM/PR77X13q1m",
+    "role": "investigador"
+  },
+  {
+    "id": "u-002",
+    "nombre": "Marco Reyes",
+    "email": "coordinador@cnbvm.gov.co",
+    "passwordHash": "$2b$10$XzTOPPNPc1lWOdptiXQBL.ZNBKDaee2ZsMkxo0qdVrwczwjDCTxG2",
+    "role": "coordinador"
+  },
+  {
+    "id": "u-003",
+    "nombre": "Ana Torres",
+    "email": "admin@cnbvm.gov.co",
+    "passwordHash": "$2b$10$eGVN5Cq27PwzMWAhHW3p6.6cwAiI3szh0jj6DnCtmtJZhJXfAwmI2",
+    "role": "administrador"
+  }
+]

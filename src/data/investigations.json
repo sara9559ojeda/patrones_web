@@ -1,0 +1,26 @@
+[
+  {
+    "id": "i-001",
+    "titulo": "Resistencia antimicrobiana en cepas de Salmonella circulantes",
+    "investigadorResponsable": "u-001",
+    "estado": "en_curso",
+    "muestrasRelacionadas": ["s-001"],
+    "resumen": "Caracterización de perfiles de resistencia en aislamientos recientes de la región Andina."
+  },
+  {
+    "id": "i-002",
+    "titulo": "Vigilancia genómica de M. tuberculosis multirresistente",
+    "investigadorResponsable": "u-001",
+    "estado": "en_curso",
+    "muestrasRelacionadas": ["s-002"],
+    "resumen": "Secuenciación y trazabilidad de la cepa resistente detectada en la región Pacífico."
+  },
+  {
+    "id": "i-003",
+    "titulo": "Protocolo de contención de emergencia — Filovirus",
+    "investigadorResponsable": "u-002",
+    "estado": "critica",
+    "muestrasRelacionadas": ["s-003"],
+    "resumen": "Investigación interna sobre la ruptura de cadena de custodia de la muestra BSL4-2026-0007."
+  }
+]

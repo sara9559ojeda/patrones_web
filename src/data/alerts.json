@@ -1,0 +1,42 @@
+[
+  {
+    "id": "a-001",
+    "titulo": "Vigilancia rutinaria sin hallazgos",
+    "microorganismoId": "m-001",
+    "region": "Nacional",
+    "nivel": "bajo",
+    "fecha": "2026-09-12T08:00:00-05:00",
+    "descripcion": "Monitoreo semanal de cepas de control en red de laboratorios centinela. No se registran desviaciones.",
+    "estado": "cerrada"
+  },
+  {
+    "id": "a-002",
+    "titulo": "Brote de salmonelosis en región Andina",
+    "microorganismoId": "m-003",
+    "region": "Región Andina",
+    "nivel": "medio",
+    "fecha": "2026-09-18T14:30:00-05:00",
+    "descripcion": "18 casos confirmados asociados a fuente alimentaria común. Equipo de campo desplegado para trazabilidad.",
+    "estado": "activa"
+  },
+  {
+    "id": "a-003",
+    "titulo": "Cepa multirresistente de M. tuberculosis detectada",
+    "microorganismoId": "m-004",
+    "region": "Región Pacífico",
+    "nivel": "alto",
+    "fecha": "2026-09-24T09:15:00-05:00",
+    "descripcion": "Aislamiento con resistencia a rifampicina e isoniazida. Notificación a autoridad sanitaria departamental en curso.",
+    "estado": "activa"
+  },
+  {
+    "id": "a-004",
+    "titulo": "Protocolo de contención activado — muestra BSL-4",
+    "microorganismoId": "m-006",
+    "region": "Laboratorio Central",
+    "nivel": "critico",
+    "fecha": "2026-09-28T22:47:00-05:00",
+    "descripcion": "Ruptura de protocolo en cadena de custodia de muestra clasificada. Zona sellada y personal en cuarentena preventiva mientras se completa la investigación interna.",
+    "estado": "activa"
+  }
+]
